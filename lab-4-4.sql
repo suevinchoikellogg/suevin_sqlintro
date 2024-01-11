@@ -3,9 +3,9 @@
 --       raising a warning: "Field of aggregated query neither grouped nor aggregated"
 
 SELECT teams.name, players.first_name, players.last_name, MAX(stats.home_runs)
-FROM players 
-INNER JOIN stats on players.id = stats.player_id
-INNER JOIN teams on stats.team_id = teams.id
+FROM players
+INNER JOIN teams ON players.id = stats.player_id
+INNER JOIN stats ON stats.team_id = teams.id
 WHERE teams.year = 2019
 GROUP BY teams.name;
 
