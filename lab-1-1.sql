@@ -2,9 +2,7 @@
 -- (e.g. expansion teams, teams moving, renaming, etc). List the year 
 -- and team name of every baseball team that has ever played.
 
-SELECT name, year, losses FROM teams
-ORDER BY losses DESC
-LIMIT 3;
+SELECT year, name FROM teams
 
 -- Expected result: 2955 rows, ending with
 --
