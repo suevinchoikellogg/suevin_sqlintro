@@ -17,3 +17,10 @@ AND _____
 ORDER BY _____ 
 LIMIT _____;
 
+[ Lab 3 ]
+GROUP BY _____
+COUNT(*)
+AVG(column)
+SUM(column)
+MIN(column)
+MAX(column)
