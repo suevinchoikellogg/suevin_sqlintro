@@ -14,13 +14,22 @@ SELECT first_name, last_name FROM players;
 SELECT _____ FROM _____ 
 WHERE _____ 
 AND _____ 
+GROUP BY _____
 ORDER BY _____ 
 LIMIT _____;
 
 [ Lab 3 ]
-GROUP BY _____
 COUNT(*)
 AVG(column)
 SUM(column)
 MIN(column)
 MAX(column)
+
+[ Lab 4 ]
+SELECT _____ FROM _____ 
+INNER JOIN _____ ON _____
+WHERE _____ 
+AND _____ 
+GROUP BY _____
+ORDER BY _____ 
+LIMIT _____;
